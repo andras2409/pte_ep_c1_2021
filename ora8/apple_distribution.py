@@ -1,4 +1,6 @@
-emberek_szama = 34
-almak_szama_a_ladaban = 124
-print("egy fore ", almak_szama_a_ladaban//emberek_szama, "db alma jut")
-print("a tanarnonel ", almak_szama_a_ladaban % emberek_szama, " db alma marad")
+all_apple_number = 124
+students_number = 34
+apple_per_students = all_apple_number // students_number
+apple_at_teacher = all_apple_number % students_number
+print("Alma tanulónként:", apple_per_students)
+print("Alma marad a tanárnpnél:", apple_at_teacher)

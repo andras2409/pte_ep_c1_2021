@@ -1,6 +1,10 @@
-d = 24
+"""
+A feladat a kör kerülete és területe
+"""
+diameter = 24  # cm
+radius = diameter / 2
 pi = 3.14
-k = 2 * (d//2) * pi
-t = (d//2) ** 2 * pi
-print("Kerület: ",k, "cm")
-print("Terület: ",t, "cm^2")
+circle_perimeter = 2 * radius * pi
+circle_area = radius ** 2 * pi
+print(circle_perimeter)
+print(circle_area)

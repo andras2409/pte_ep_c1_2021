@@ -1,6 +1,7 @@
-olom_terfogat_cm3 = 18
-rez_terfogat_cm3 = 23
-olom_suruseg = 11.34
-rez_suruseg = 8.69
-print("Ólom súlya: ", olom_terfogat_cm3*olom_suruseg)
-print("Réz súlya: ", rez_terfogat_cm3*rez_suruseg)
+lead_volume = 18  # cm^3
+copper_volume = 23  # cm^3
+lead_density = 11.34  # g/cm^3
+copper_density = 8.69  # g/cm^3
+lead_mass = lead_volume * lead_density
+copper_mess = copper_volume * copper_density
+print(lead_mass > copper_mess)
