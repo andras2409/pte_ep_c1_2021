@@ -16,5 +16,3 @@ print(str2.isalnum())
 str3 = "user12"
 print(str3.isalpha())
 print(str3.isalnum())
-
-

@@ -34,3 +34,34 @@ print(my_list)
 
 my_list.insert(3, "szilva")
 print(my_list)
+
+del(my_list[3])
+print(my_list)
+
+my_list = [3, 6, 1.4, 8, 12]
+my_list_copy = my_list.copy()
+
+my_list2 = my_list
+print("my_list", my_list)
+print("my_list2", my_list2)
+print("my_list_copy", my_list_copy)
+
+my_list.sort()
+print("my_list", my_list)
+print("my_list2", my_list2)
+print("my_list_copy", my_list_copy)
+print("sort reverse")
+my_list.sort(reverse=True)
+print("my_list", my_list)
+print("my_list2", my_list2)
+print("my_list_copy", my_list_copy)
+print("reverse metódus")
+my_list_copy.reverse()
+print("my_list", my_list)
+print("my_list2", my_list2)
+print("my_list_copy", my_list_copy)
+
+my_list_copy2 = sorted(my_list_copy)
+print("my_list_copy", my_list_copy)
+print("my_list_copy2", my_list_copy2)
+
